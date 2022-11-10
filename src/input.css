@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .container{
+        @apply w-[85%] mx-auto;
+    }
+    .btn-1{
+        @apply px-8 py-3 border border-main rounded-3xl hover:bg-main hover:text-white hover:border-main duration-500 
+    }
+    .btn-2{
+        @apply px-8 py-3 bg-main text-white rounded-3xl hover:bg-black duration-500
+    }
+}
+
